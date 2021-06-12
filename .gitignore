@@ -1,0 +1,8 @@
+/src/server/packages
+/src/server/.vs
+/src/server/SignalingServer/obj
+/src/server/SignalingServer/bin
+/src/server/SignalingServer/Properties/PublishProfiles/webrtcss - Web Deploy.pubxml.user
+/src/server/SignalingServer/Properties/PublishProfiles/webrtcss - Web Deploy.pubxml
+/src/server/SignalingServer/SignalingServer.csproj.user
+/src/server/node_modules
