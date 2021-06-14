@@ -1,7 +1,7 @@
 var MyApp = (function(){
 
 var socket = null;
-var socker_url = 'https://stream.schoyo:3000';
+var socker_url = 'https://stream.schoyo.com:3000';
 var meeting_id = '';
 var user_id = '';
 
