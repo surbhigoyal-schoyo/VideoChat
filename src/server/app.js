@@ -7,8 +7,19 @@ app.get('/', (req, res) => {
 	res.render('index')
 })
 
+// const logger = require('winston')
+const server = https.createServer();
 //Listen on port 3000
-server = app.listen(3000)
+server.listen(3000)
+
+//socket.io instantiation
+const io = require("socket.io")(server)
+server.on('request', (request, response) => {
+    console.log("Request is ", request);
+})
+
+//Listen on port 3000
+// server = app.listen(3000)
 
 //socket.io instantiation
 const io = require("socket.io")(server)
