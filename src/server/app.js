@@ -22,7 +22,7 @@ server.on('request', (request, response) => {
 // server = app.listen(3000)
 
 //socket.io instantiation
-const io = require("socket.io")(server)
+// const io = require("socket.io")(server)
 console.log("listening on port 3000");
 //listen on every connection
 io.on('connection', (socket) => {
